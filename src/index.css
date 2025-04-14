@@ -10,9 +10,9 @@
 }
 
 .all {
-    @apply absolute left-3 top-[70px] lg:left-90 lg:top-10 bg-black/30 w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] -z-1 blur-[7px] rotate-y-[20deg];
+    @apply absolute left-5 top-10 lg:left-90 lg:top-10 bg-black/30 w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] -z-1 blur-[7px] rotate-y-[20deg];
 }
 
 .minimal {
-    @apply absolute top-[230px] left-[10px] lg:left-90 lg:top-40 bg-black/30 w-[280px] h-[100px] lg:w-[500px] lg:h-[200px] -z-1 blur-[7px] rotate-y-[20deg];
+    @apply absolute top-[200px] left-[10px] lg:left-90 lg:top-40 bg-black/30 w-[280px] h-[100px] lg:w-[500px] lg:h-[200px] -z-1 blur-[7px] rotate-y-[20deg];
 }
