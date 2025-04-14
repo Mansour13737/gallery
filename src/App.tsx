@@ -33,7 +33,7 @@ function App() {
   };
 
   return (
-    <div className='flex items-center pt-10 justify-center relative w-screen h-screen flex-col'>
+    <div className='flex pt-10 items-center justify-center relative w-screen h-screen flex-col'>
       <div className={filtered === 'All' ? 'all' : 'minimal'}></div>
       <div className='px-[10%] cursor-pointer grid grid-cols-3 gap-y-2 gap-x-2 mx-auto p-2'>
         {filteredCategories.map((img) => (
@@ -46,6 +46,8 @@ function App() {
         <button onClick={() => clickHandler('art')  } className='btn'>Art</button>
         <button onClick={() => clickHandler('mixed')} className='btn'>Mixed</button>
         <button onClick={() => clickHandler('All')} className='btn'>All</button>
+      </div>
+      <div className='w-screen h-[60px] lg:hidden  mt-[40px] bg-black border border-white/10 backdrop-blur-md  '>
       </div>
     </div>
   );
